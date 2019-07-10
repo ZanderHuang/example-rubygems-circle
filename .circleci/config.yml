@@ -115,5 +115,5 @@ jobs:
       # collect reports
 
       - run:
-
-            bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
+            #- bash <(curl -s https://copilot.blackducksoftware.com/ci/travis/scripts/upload)
+            - bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
