@@ -23,9 +23,9 @@ jobs:
       
 
       - run: # Install Ruby dependencies
-          gem update --system
+#           gem update --system
           
-          gem install bundler
+#           gem install bundler
 
           name: Bundle Install
 
